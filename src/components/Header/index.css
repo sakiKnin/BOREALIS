@@ -1,0 +1,33 @@
+.header_logo {
+	background-color: #004289;
+	min-height: 10vh;
+	display: flex;
+	flex-direction: row;
+   
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 1rem;
+	padding-right:1rem;
+	//font-size: calc(10px + 2vmin);
+
+}
+
+.logo{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ 
+
+.header_title_1{
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding-left:3rem;
+}
+
+.header_title_2{
+  color: #fff;
+  font-size: 0.9rem;
+}

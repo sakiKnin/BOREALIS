@@ -1,0 +1,89 @@
+.conf-modal-finish{
+
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+ 
+padding-left:1rem;
+padding-right:1rem;
+width: 600px;
+height: 348px;
+
+/* Background/100 */
+
+background: #FEFEFE;
+/* Base/400 */
+
+border: 1px solid rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.finish-body{
+    display:flex;
+    padding-top:2rem;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.finish-msg1{
+    width: 540px;
+ 
+
+/* medium/H3 24px */
+
+ 
+font-weight: 500;
+font-size: 24px;
+ 
+/* identical to box height, or 142% */
+
+text-align: center;
+
+/* Primary/100 */
+
+color: #004289;
+
+
+/* Inside auto layout */
+
+ 
+}
+
+.finish-msg2{
+    width: 540px;
+ 
+
+/* H4/18px regular */
+
+ 
+font-weight: 400;
+font-size: 18px;
+ 
+/* or 25px */
+
+text-align: center;
+
+/* Base/100 */
+
+color: #1C1C1C;
+
+
+/* Inside auto layout */
+
+ 
+}
+
+ 
+ 

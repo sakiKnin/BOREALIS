@@ -1,0 +1,136 @@
+.conf-modal-step3{
+
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+ 
+align-items: flex-start;
+ 
+
+width: 600px;
+height: 567px;
+
+/* Background/100 */
+
+background: #FEFEFE;
+/* Base/400 */
+
+border: 1px solid rgba(0, 0, 0, 0.15);
+border-radius: 5px;
+padding:1rem;
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.step3-list-row{
+    display:flex;
+    flex-direction: column;
+    padding-top:0.8rem;
+
+}
+
+.input-step3{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 5px 5px 5px 10px;
+gap: 10px;
+
+width: 540px;
+height: 34px;
+
+/* Base/500 */
+
+background: rgba(0, 0, 0, 0.04);
+/* Base/500 */
+
+border: 1px solid rgba(0, 0, 0, 0.04);
+border-radius: 3px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+}
+
+
+
+ 
+
+#info{
+
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 5px 5px 5px 10px;
+gap: 10px;
+
+width: 540px;
+height: 106px;
+
+/* Base/500 */
+
+background: rgba(0, 0, 0, 0.04);
+/* Base/500 */
+
+border: 1px solid rgba(0, 0, 0, 0.04);
+border-radius: 3px;
+
+/* Inside auto layout */
+resize:none;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+z-index: 1;
+}
+
+#label{
+
+    /* Name */
+
+
+width: 520px;
+height: 20px;
+
+/* H6/14px regular */
+
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+
+/* Base/200 */
+
+color: #585757;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+ 
+ 

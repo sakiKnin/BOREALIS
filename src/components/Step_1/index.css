@@ -1,0 +1,149 @@
+.step{
+    width:100%;
+    height:100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conf-modal-step1{
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+    
+    width: 600px;
+    height: 345px;
+    
+    /* Background/100 */
+    
+    background: #FEFEFE;
+    /* Base/400 */
+    
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.conf-modal-header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding-top:1rem;
+    padding-right:1rem;
+}
+
+.close-btn{
+    cursor:pointer;
+}
+
+.step-1-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+    text-align: left;
+
+}
+
+legend{
+    text-align: left;
+    padding-top:1rem;
+    font-size: 1.2rem;
+}
+
+span{
+    color:#004289;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.step-1-list{
+    display:flex;
+    flex-direction: row;
+    padding-left:0.693rem;
+
+}
+
+.step1-row2-list{
+    padding-left:2rem;
+}
+
+.step1-row3-list{
+    padding-left:2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding:0;  
+}
+
+li{
+    margin:0;
+    padding:0.3rem;
+    text-align: left; 
+}
+
+label{
+    padding-left:0.3rem;
+}
+
+.btn-group-step1{
+    display:flex;
+    width:100%;
+    justify-content: right;
+    padding-right:1rem;
+}
+
+.cancle-btn{
+    background-color: #fff;
+    font-size: 1rem;
+    margin-right:1rem;
+    width:6rem;
+    height:2rem;
+    cursor:pointer;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+.forward-btn:disabled{
+    background-color: rgba(0, 0, 0, 0.15);;
+    color:#969696;
+    font-size: 1rem;
+    margin-right:1rem;
+    width:6rem;
+    height:2rem;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+.forward-btn:enabled{
+    background-color: #004289;
+    color:#fff;
+    font-size: 1rem;
+    margin-right:1rem;
+    width:6rem;
+    height:2rem;
+    cursor:pointer;
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+
+  
+
+   
+ 
+ 
